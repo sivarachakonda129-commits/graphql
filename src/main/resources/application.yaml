@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: graphql
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  graphql:
+    graphiql:
+      enabled: true
